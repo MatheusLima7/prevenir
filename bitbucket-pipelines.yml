@@ -1,0 +1,44 @@
+image: node:18
+
+pipelines:
+  pull-requests:
+    "**":
+      - step: &ClearCache
+          name: Clear Cache
+          script:
+            - yarn cache clean
+
+      - step: &Dependencies
+          name: Install Dependencies
+          runs-on:
+            - macos
+          script:
+            - apt-get update && apt-get install -y curl git wget unzip
+            - yarn
+
+      - step: &Lint
+          name: Lint
+          runs-on:
+            - macos
+          script:
+            - yarn
+            - yarn lint
+
+      - step: &Unit
+          name: Unit tests
+          runs-on:
+            - macos
+          script:
+            - yarn
+            - rm -rf ./coverage
+            - yarn test:coverage
+
+      - step: &BuildStaging
+          name: Build Android
+          runs-on:
+            - macos
+          script:
+            - yarn
+            - yarn build:prod
+          artifacts:
+            - android/app/build/outputs/**/**.apk

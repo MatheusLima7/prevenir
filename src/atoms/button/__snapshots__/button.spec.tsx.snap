@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component should render component correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignItens": "center",
+      "backgroundColor": "#007AFF",
+      "borderBottomLeftRadius": 7,
+      "borderBottomRightRadius": 7,
+      "borderTopLeftRadius": 7,
+      "borderTopRightRadius": 7,
+      "color": "#ffffff",
+      "display": "flex",
+      "flexDirection": "row",
+      "fontSize": 14,
+      "height": 60,
+      "justifyContent": "space-evenly",
+      "lineHeight": 20,
+      "opacity": 1,
+      "paddingBottom": 0,
+      "paddingLeft": 30,
+      "paddingRight": 30,
+      "paddingTop": 0,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    center={false}
+    color="white"
+    size="small"
+    style={
+      [
+        {
+          "color": "#ffffff",
+          "display": "flex",
+          "fontFamily": "Quicksand-SemiBold",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 20,
+        },
+        {
+          "width": "100%",
+        },
+      ]
+    }
+    testId="text-component"
+    type="title"
+  >
+    teste
+  </Text>
+</View>
+`;

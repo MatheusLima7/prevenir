@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome Component should render component correctly 1`] = `
+<View
+  style={
+    {
+      "textAlign": "center",
+    }
+  }
+>
+  <Text
+    center={true}
+    color="gray"
+    size="large"
+    style={
+      [
+        {
+          "color": "#717171",
+          "display": "flex",
+          "fontFamily": "Quicksand-SemiBold",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "lineHeight": 30,
+          "textAlign": "center",
+        },
+        {},
+      ]
+    }
+    testId="text-component"
+    type="title"
+  >
+    title
+  </Text>
+  <View
+    style={
+      {
+        "marginTop": 20,
+      }
+    }
+  >
+    <Text
+      center={true}
+      color="gray"
+      size="small"
+      style={
+        [
+          {
+            "color": "#717171",
+            "display": "flex",
+            "fontFamily": "Quicksand-Regular",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+          {},
+        ]
+      }
+      testId="text-component"
+      type="text"
+    >
+      text
+       
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-SemiBold",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="title"
+      >
+        org
+      </Text>
+    </Text>
+  </View>
+</View>
+`;

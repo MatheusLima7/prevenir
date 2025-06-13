@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Periodic Questionnaire Screen Component should render component correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ECFEFF",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 50,
+      "paddingLeft": 30,
+      "paddingRight": 30,
+      "paddingTop": 25,
+      "width": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flexGrow": 1,
+      }
+    }
+    keyboardShouldPersistTaps="always"
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={true}
+    style={{}}
+  >
+    <View>
+      <View
+        style={
+          {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          }
+        }
+      >
+        <ActivityIndicator />
+      </View>
+      <View
+        style={{}}
+      >
+        <View
+          style={
+            {
+              "jistifyContent": "flex-end",
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

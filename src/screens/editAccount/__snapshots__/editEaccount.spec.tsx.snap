@@ -1,0 +1,866 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Edit Account  Screen Component should render component correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    [
+      {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#ECFEFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 50,
+        "paddingLeft": 30,
+        "paddingRight": 30,
+        "paddingTop": 25,
+        "position": "relative",
+      }
+    }
+  >
+    <RCTScrollView
+      keyboardShouldPersistTaps="always"
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      style={
+        {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralDarkBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#536485",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Nome Social
+          </Text>
+          <View
+            style={{}}
+          >
+            <TextInput
+              accessibilityLabel="TEXT_INPUT"
+              blurOnSubmit={false}
+              editable={true}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Qual é o seu nome?"
+              placeholderTextColor="#53648580"
+              returnKeyType="next"
+              style={
+                [
+                  {
+                    "backgroundColor": "#ffffff",
+                    "height": 50,
+                    "marginBottom": 7,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": 7,
+                    "paddingBottom": 14,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 14,
+                    "width": "100%",
+                  },
+                  {
+                    "backgroundColor": "#ffffff",
+                    "color": "#536485",
+                    "placeholderTextColor": "#53648580",
+                  },
+                ]
+              }
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralDarkBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#536485",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Apelido
+          </Text>
+          <View
+            style={{}}
+          >
+            <TextInput
+              accessibilityLabel="TEXT_INPUT"
+              blurOnSubmit={false}
+              editable={true}
+              focus={true}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Como é o seu apelido?"
+              placeholderTextColor="#53648580"
+              returnKeyType="next"
+              style={
+                [
+                  {
+                    "backgroundColor": "#ffffff",
+                    "height": 50,
+                    "marginBottom": 7,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": 7,
+                    "paddingBottom": 14,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 14,
+                    "width": "100%",
+                  },
+                  {
+                    "backgroundColor": "#ffffff",
+                    "color": "#536485",
+                    "placeholderTextColor": "#53648580",
+                  },
+                ]
+              }
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralDarkBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#536485",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            CEP
+          </Text>
+          <TextInput
+            autoCapitalize="words"
+            editable={true}
+            keepPlaceholderPartially={true}
+            keyboardType="numeric"
+            onSubmitEditing={[Function]}
+            placeholder="XXXXX-XXX"
+            returnKeyType="next"
+            style={
+              [
+                {
+                  "backgroundColor": "#ffffff50",
+                  "color": "#53648580",
+                  "height": 50,
+                  "marginBottom": 7,
+                  "marginLeft": 0,
+                  "marginRight": 0,
+                  "marginTop": 7,
+                  "paddingBottom": 14,
+                  "paddingLeft": 14,
+                  "paddingRight": 14,
+                  "paddingTop": 14,
+                  "width": "100%",
+                },
+                {
+                  "backgroundColor": "#ffffff",
+                  "color": "#536485",
+                  "placeholderTextColor": "#53648580",
+                },
+              ]
+            }
+          />
+          <AdvancedTextInputMaskDecoratorView
+            autocomplete={false}
+            onAdvancedMaskTextChange={[Function]}
+            primaryMaskFormat="[00000]-[000]"
+            style={
+              {
+                "left": 100000000,
+                "position": "absolute",
+                "top": 100000000,
+              }
+            }
+            value=""
+          />
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralDarkBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#536485",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Rua
+          </Text>
+          <View
+            style={{}}
+          >
+            <TextInput
+              accessibilityLabel="TEXT_INPUT"
+              blurOnSubmit={false}
+              editable={true}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Qual é a sua rua?"
+              placeholderTextColor="#53648580"
+              returnKeyType="next"
+              style={
+                [
+                  {
+                    "backgroundColor": "#ffffff",
+                    "height": 50,
+                    "marginBottom": 7,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": 7,
+                    "paddingBottom": 14,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 14,
+                    "width": "100%",
+                  },
+                  {
+                    "backgroundColor": "#ffffff",
+                    "color": "#536485",
+                    "placeholderTextColor": "#53648580",
+                  },
+                ]
+              }
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralDarkBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#536485",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Número
+          </Text>
+          <View
+            style={{}}
+          >
+            <TextInput
+              accessibilityLabel="TEXT_INPUT"
+              blurOnSubmit={false}
+              editable={true}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Qual é o número da sua casa?"
+              placeholderTextColor="#53648580"
+              returnKeyType="next"
+              style={
+                [
+                  {
+                    "backgroundColor": "#ffffff",
+                    "height": 50,
+                    "marginBottom": 7,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": 7,
+                    "paddingBottom": 14,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 14,
+                    "width": "100%",
+                  },
+                  {
+                    "backgroundColor": "#ffffff",
+                    "color": "#536485",
+                    "placeholderTextColor": "#53648580",
+                  },
+                ]
+              }
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralDarkBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#536485",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Bairro
+          </Text>
+          <View
+            style={{}}
+          >
+            <TextInput
+              accessibilityLabel="TEXT_INPUT"
+              blurOnSubmit={false}
+              editable={true}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Qual é o seu bairro?"
+              placeholderTextColor="#53648580"
+              returnKeyType="next"
+              style={
+                [
+                  {
+                    "backgroundColor": "#ffffff",
+                    "height": 50,
+                    "marginBottom": 7,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": 7,
+                    "paddingBottom": 14,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 14,
+                    "width": "100%",
+                  },
+                  {
+                    "backgroundColor": "#ffffff",
+                    "color": "#536485",
+                    "placeholderTextColor": "#53648580",
+                  },
+                ]
+              }
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralDarkBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#536485",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Cidade
+          </Text>
+          <View
+            style={{}}
+          >
+            <TextInput
+              accessibilityLabel="TEXT_INPUT"
+              blurOnSubmit={false}
+              editable={true}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Qual é a sua cidade?"
+              placeholderTextColor="#53648580"
+              returnKeyType="next"
+              style={
+                [
+                  {
+                    "backgroundColor": "#ffffff",
+                    "height": 50,
+                    "marginBottom": 7,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": 7,
+                    "paddingBottom": 14,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 14,
+                    "width": "100%",
+                  },
+                  {
+                    "backgroundColor": "#ffffff",
+                    "color": "#536485",
+                    "placeholderTextColor": "#53648580",
+                  },
+                ]
+              }
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralLightBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#53648580",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Estado
+          </Text>
+          <View
+            style={{}}
+          >
+            <TextInput
+              accessibilityLabel="TEXT_INPUT"
+              blurOnSubmit={false}
+              editable={false}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="São Paulo"
+              placeholderTextColor="#53648580"
+              returnKeyType="next"
+              style={
+                [
+                  {
+                    "backgroundColor": "#ffffff",
+                    "height": 50,
+                    "marginBottom": 7,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": 7,
+                    "paddingBottom": 14,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 14,
+                    "width": "100%",
+                  },
+                  {
+                    "backgroundColor": "#ffffff80",
+                    "color": "#53648580",
+                    "placeholderTextColor": "#53648580",
+                  },
+                ]
+              }
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralLightBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#53648580",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Telefone
+          </Text>
+          <TextInput
+            autoCapitalize="words"
+            editable={false}
+            keepPlaceholderPartially={true}
+            keyboardType="numeric"
+            onSubmitEditing={[Function]}
+            placeholder="(XX)XXXXX-XXXX"
+            placeholderTextColor="#53648580"
+            returnKeyType="next"
+            style={
+              [
+                {
+                  "backgroundColor": "#ffffff50",
+                  "color": "#536485",
+                  "height": 50,
+                  "marginBottom": 7,
+                  "marginLeft": 0,
+                  "marginRight": 0,
+                  "marginTop": 7,
+                  "paddingBottom": 14,
+                  "paddingLeft": 14,
+                  "paddingRight": 14,
+                  "paddingTop": 14,
+                  "width": "100%",
+                },
+                {
+                  "backgroundColor": "#ffffff80",
+                },
+              ]
+            }
+          />
+          <AdvancedTextInputMaskDecoratorView
+            autocomplete={false}
+            onAdvancedMaskTextChange={[Function]}
+            primaryMaskFormat="([00])[00000]-[0000]"
+            style={
+              {
+                "left": 100000000,
+                "position": "absolute",
+                "top": 100000000,
+              }
+            }
+            value=""
+          />
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralDarkBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#536485",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Data de Nascimento
+          </Text>
+          <TextInput
+            autoCapitalize="words"
+            editable={true}
+            keepPlaceholderPartially={true}
+            keyboardType="numeric"
+            onSubmitEditing={[Function]}
+            placeholder="XX/XX/XXXX"
+            placeholderTextColor="#53648580"
+            returnKeyType="next"
+            style={
+              [
+                {
+                  "backgroundColor": "#ffffff50",
+                  "color": "#536485",
+                  "height": 50,
+                  "marginBottom": 7,
+                  "marginLeft": 0,
+                  "marginRight": 0,
+                  "marginTop": 7,
+                  "paddingBottom": 14,
+                  "paddingLeft": 14,
+                  "paddingRight": 14,
+                  "paddingTop": 14,
+                  "width": "100%",
+                },
+                {
+                  "backgroundColor": "#ffffff",
+                },
+              ]
+            }
+          />
+          <AdvancedTextInputMaskDecoratorView
+            autocomplete={false}
+            onAdvancedMaskTextChange={[Function]}
+            primaryMaskFormat="[00]/[00]/[0000]"
+            style={
+              {
+                "left": 100000000,
+                "position": "absolute",
+                "top": 100000000,
+              }
+            }
+            value=""
+          />
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="neutralDarkBlue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#536485",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Genêro
+          </Text>
+          <View
+            style={
+              {
+                "position": "relative",
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "backgroundColor": "#ffffff",
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "marginBottom": 7,
+                  "marginLeft": 0,
+                  "marginRight": 0,
+                  "marginTop": 7,
+                  "opacity": 1,
+                  "paddingBottom": 14,
+                  "paddingLeft": 14,
+                  "paddingRight": 14,
+                  "paddingTop": 14,
+                  "position": "relative",
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                size="small"
+                style={
+                  [
+                    {
+                      "color": undefined,
+                      "display": "flex",
+                      "fontFamily": "Quicksand-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    },
+                    {},
+                  ]
+                }
+                testId="text-component"
+                type="text"
+              >
+                Homem Cisgênero
+              </Text>
+              MockedIcon({"name":"chevron-up","size":16,"color":"#717171","iconStyle":"solid","style":{}})
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItens": "center",
+          "borderBottomLeftRadius": 7,
+          "borderBottomRightRadius": 7,
+          "borderTopLeftRadius": 7,
+          "borderTopRightRadius": 7,
+          "color": "#717171",
+          "display": "flex",
+          "flexDirection": "row",
+          "fontSize": 14,
+          "justifyContent": "space-evenly",
+          "lineHeight": 20,
+          "marginBottom": 15,
+          "opacity": 1,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "width": "auto",
+        }
+      }
+    />
+  </RNCSafeAreaView>
+  <View
+    style={
+      {
+        "bottom": 0,
+        "left": 20,
+        "position": "absolute",
+        "right": 20,
+      }
+    }
+  />
+</View>
+`;

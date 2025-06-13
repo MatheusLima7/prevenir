@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1031809397202",
+    "project_id": "prevenir10i9",
+    "storage_bucket": "prevenir10i9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031809397202:android:2d55f1e38a2c92016fd80b",
+        "android_client_info": {
+          "package_name": "br.com.iodev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAckZFtir4Ihx9QMIW9oDLbkdyhuZOoXeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031809397202:android:0df157403582aace6fd80b",
+        "android_client_info": {
+          "package_name": "com.prevenir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAckZFtir4Ihx9QMIW9oDLbkdyhuZOoXeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

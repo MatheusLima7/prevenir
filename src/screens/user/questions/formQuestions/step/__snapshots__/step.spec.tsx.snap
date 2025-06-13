@@ -1,0 +1,384 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step Screen Component should render component correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    [
+      {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#ECFEFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 50,
+        "paddingLeft": 30,
+        "paddingRight": 30,
+        "paddingTop": 25,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#A1A1AA",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "height": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        progress={33.333333333333336}
+        style={
+          {
+            "backgroundColor": "#0081A7",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "height": 10,
+            "width": "33.333333333333336%",
+          }
+        }
+      />
+    </View>
+    <RCTScrollView
+      keyboardShouldPersistTaps="always"
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      style={
+        {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          style={{}}
+        >
+          <Text
+            color="gray"
+            size="xMedium"
+            style={
+              [
+                {
+                  "color": "#717171",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-SemiBold",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "lineHeight": 24,
+                },
+                {
+                  "marginBottom": 20,
+                  "marginTop": 30,
+                },
+              ]
+            }
+            testId="text-component"
+            type="title"
+          >
+            1
+            ) 
+            First question
+          </Text>
+          <View
+            style={{}}
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "flexDirection": "row",
+                  "marginBottom": 20,
+                  "opacity": 1,
+                }
+              }
+              testID="Minha resposta-0"
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 12,
+                    "borderBottomRightRadius": 12,
+                    "borderColor": "#D4D4D8",
+                    "borderTopLeftRadius": 12,
+                    "borderTopRightRadius": 12,
+                    "borderWidth": 2,
+                    "display": "flex",
+                    "height": 24,
+                    "justifyContent": "center",
+                    "marginRight": 12,
+                    "width": 24,
+                  }
+                }
+              />
+              <Text
+                color="gray"
+                size="small"
+                style={
+                  [
+                    {
+                      "color": "#717171",
+                      "display": "flex",
+                      "fontFamily": "Quicksand-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    },
+                    {},
+                  ]
+                }
+                testId="text-component"
+                type="text"
+              >
+                Minha resposta
+              </Text>
+            </View>
+          </View>
+          <View
+            style={{}}
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "flexDirection": "row",
+                  "marginBottom": 20,
+                  "opacity": 1,
+                }
+              }
+              testID="Outro-1"
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 12,
+                    "borderBottomRightRadius": 12,
+                    "borderColor": "#D4D4D8",
+                    "borderTopLeftRadius": 12,
+                    "borderTopRightRadius": 12,
+                    "borderWidth": 2,
+                    "display": "flex",
+                    "height": 24,
+                    "justifyContent": "center",
+                    "marginRight": 12,
+                    "width": 24,
+                  }
+                }
+              />
+              <Text
+                color="gray"
+                size="small"
+                style={
+                  [
+                    {
+                      "color": "#717171",
+                      "display": "flex",
+                      "fontFamily": "Quicksand-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    },
+                    {},
+                  ]
+                }
+                testId="text-component"
+                type="text"
+              >
+                Outro
+              </Text>
+            </View>
+            <View
+              style={{}}
+            >
+              <TextInput
+                accessibilityLabel="DESCRIPTION_INPUT"
+                autoFocus={true}
+                blurOnSubmit={false}
+                editable={false}
+                focus={false}
+                multiline={true}
+                numberOfLines={4}
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onFocus={[Function]}
+                placeholderTextColor="#536485"
+                returnKeyType="next"
+                style={
+                  [
+                    {
+                      "borderBottomLeftRadius": 8,
+                      "borderBottomRightRadius": 8,
+                      "borderColor": "#A1A1AA33",
+                      "borderStyle": "solid",
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "borderWidth": 1,
+                      "height": 105,
+                      "marginBottom": 20,
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": 0,
+                      "paddingBottom": 14,
+                      "paddingLeft": 14,
+                      "paddingRight": 14,
+                      "paddingTop": 14,
+                      "width": "100%",
+                    },
+                    {
+                      "backgroundColor": "#ECFEFF80",
+                    },
+                  ]
+                }
+                textAlignVertical="top"
+                value=""
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItens": "center",
+              "borderBottomLeftRadius": 7,
+              "borderBottomRightRadius": 7,
+              "borderTopLeftRadius": 7,
+              "borderTopRightRadius": 7,
+              "color": "#717171",
+              "display": "flex",
+              "flexDirection": "row",
+              "fontSize": 14,
+              "justifyContent": "space-evenly",
+              "lineHeight": 20,
+              "opacity": 1,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "width": "auto",
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        {
+          "bottom": 0,
+          "left": 20,
+          "position": "absolute",
+          "right": 20,
+        }
+      }
+    />
+  </RNCSafeAreaView>
+</View>
+`;

@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Update Screen Component should render component correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ECFEFF",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 50,
+      "paddingLeft": 30,
+      "paddingRight": 30,
+      "paddingTop": 25,
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../src/assets/prevenir.png",
+      }
+    }
+    style={
+      {
+        "height": 83,
+        "width": 190,
+      }
+    }
+  />
+  <View
+    style={{}}
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginBottom": 35,
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../src/assets/cellphone.png",
+          }
+        }
+        style={{}}
+      />
+      <Text
+        color="gray"
+        size="xLarge"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-SemiBold",
+              "fontSize": 30,
+              "fontWeight": "600",
+              "lineHeight": 30,
+            },
+            {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "marginLeft": 20,
+            },
+          ]
+        }
+        testId="text-component"
+        type="title"
+      >
+        Atualize seu aplicativo!
+      </Text>
+    </View>
+    <Text
+      color="gray"
+      size="small"
+      style={
+        [
+          {
+            "color": "#717171",
+            "display": "flex",
+            "fontFamily": "Quicksand-SemiBold",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "lineHeight": 20,
+          },
+          {
+            "marginBottom": 25,
+          },
+        ]
+      }
+      testId="text-component"
+      type="title"
+    >
+      Você está usando uma versão desatualizada deste aplicativo. 😴 Bora atualizar?
+    </Text>
+    <Text
+      color="gray"
+      size="small"
+      style={
+        [
+          {
+            "color": "#717171",
+            "display": "flex",
+            "fontFamily": "Quicksand-Regular",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 20,
+          },
+          {},
+        ]
+      }
+      testId="text-component"
+      type="text"
+    >
+      A versão do aplicativo instalada no seu smartphone está desatualizada. Para seguir, atualize o aplicativo ou clique no botão 
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-SemiBold",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="title"
+      >
+        "
+        Atualizar agora
+        "
+      </Text>
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItens": "center",
+        "borderBottomLeftRadius": 7,
+        "borderBottomRightRadius": 7,
+        "borderTopLeftRadius": 7,
+        "borderTopRightRadius": 7,
+        "color": "#717171",
+        "display": "flex",
+        "flexDirection": "row",
+        "fontSize": 14,
+        "justifyContent": "space-evenly",
+        "lineHeight": 20,
+        "opacity": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "width": "auto",
+      }
+    }
+  />
+</RNCSafeAreaView>
+`;

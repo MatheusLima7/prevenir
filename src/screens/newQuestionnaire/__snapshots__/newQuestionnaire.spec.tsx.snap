@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`New Questionnaire Screen Component should render component correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ECFEFF",
+      "flexBasis": 0,
+      "flexDirection": "column",
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 50,
+      "paddingLeft": 30,
+      "paddingRight": 30,
+      "paddingTop": 25,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../src/assets/robot.png",
+        }
+      }
+      style={
+        {
+          "marginBottom": 20,
+        }
+      }
+    />
+    <Text
+      center={true}
+      color="gray"
+      size="large"
+      style={
+        [
+          {
+            "color": "#717171",
+            "display": "flex",
+            "fontFamily": "Quicksand-SemiBold",
+            "fontSize": 24,
+            "fontWeight": "600",
+            "lineHeight": 30,
+            "textAlign": "center",
+          },
+          {
+            "marginBottom": 10,
+          },
+        ]
+      }
+      testId="text-component"
+      type="title"
+    >
+      Novo Questionário
+    </Text>
+    <Text
+      style={
+        {
+          "marginBottom": 24,
+          "textAlign": "justify",
+        }
+      }
+    >
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {
+              "marginBottom": 24,
+            },
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Olá, eu sou o 
+      </Text>
+      <Text
+        center={true}
+        color="blue"
+        size="small"
+        style={
+          [
+            {
+              "color": "#0081A7",
+              "display": "flex",
+              "fontFamily": "Quicksand-SemiBold",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 20,
+              "textAlign": "center",
+            },
+            {
+              "color": "#0081A7",
+              "marginBottom": 24,
+            },
+          ]
+        }
+        testId="text-component"
+        type="title"
+      >
+        Paulistinha. 
+      </Text>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {
+              "marginBottom": 24,
+            },
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Estou aqui para te ajudar. Você pode responder as nossas perguntas a seguir para que nossa equipe saiba como está o seu dia?
+      </Text>
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItens": "center",
+        "borderBottomLeftRadius": 7,
+        "borderBottomRightRadius": 7,
+        "borderTopLeftRadius": 7,
+        "borderTopRightRadius": 7,
+        "color": "#717171",
+        "display": "flex",
+        "flexDirection": "row",
+        "fontSize": 14,
+        "justifyContent": "space-evenly",
+        "lineHeight": 20,
+        "opacity": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "width": "auto",
+      }
+    }
+  />
+</RNCSafeAreaView>
+`;

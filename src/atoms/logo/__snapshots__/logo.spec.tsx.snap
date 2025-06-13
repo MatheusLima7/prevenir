@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Component should render component correctly 1`] = `
+<Image
+  source={
+    {
+      "testUri": "../../../src/assets/prevenir.png",
+    }
+  }
+  style={
+    {
+      "height": 83,
+      "width": 190,
+    }
+  }
+/>
+`;

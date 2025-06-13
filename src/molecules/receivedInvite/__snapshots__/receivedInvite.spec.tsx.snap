@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReceivedInvite Component should render component correctly 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 80,
+      "marginTop": 110,
+      "textAlign": "center",
+    }
+  }
+>
+  <Text
+    center={true}
+    size="small"
+    style={
+      [
+        {
+          "color": undefined,
+          "display": "flex",
+          "fontFamily": "Quicksand-Regular",
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 20,
+          "textAlign": "center",
+        },
+        {},
+      ]
+    }
+    testId="text-component"
+    type="text"
+  >
+    title
+  </Text>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      center={true}
+      color="blue"
+      size="medium"
+      style={
+        [
+          {
+            "color": "#0081A7",
+            "display": "flex",
+            "fontFamily": "Quicksand-SemiBold",
+            "fontSize": 20,
+            "fontWeight": "600",
+            "lineHeight": 30,
+            "textAlign": "center",
+          },
+          {},
+        ]
+      }
+      testId="text-component"
+      type="title"
+    >
+      subtitle
+    </Text>
+  </View>
+</View>
+`;

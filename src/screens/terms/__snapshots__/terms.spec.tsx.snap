@@ -1,0 +1,762 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Terms Screen Component should render component correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ECFEFF",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "paddingBottom": 50,
+      "paddingLeft": 30,
+      "paddingRight": 30,
+      "paddingTop": 25,
+    }
+  }
+>
+  <RCTScrollView
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "marginBottom": 20,
+      }
+    }
+  >
+    <View>
+      <Text
+        color="gray"
+        size="large"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-SemiBold",
+              "fontSize": 24,
+              "fontWeight": "600",
+              "lineHeight": 30,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="title"
+      >
+        Termos de Uso do Usuário
+      </Text>
+      <View
+        style={
+          {
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          color="gray"
+          size="medium"
+          style={
+            [
+              {
+                "color": "#717171",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 20,
+                "fontWeight": "600",
+                "lineHeight": 30,
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          Termo de Consentimento para Tratamento de Dados Pessoais
+        </Text>
+      </View>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        A Coordenadoria de Políticas sobre Drogas (COED), vinculada à Secretaria de Desenvolvimento Social (SEDS) do Governo do Estado de São Paulo, respeita a privacidade e a proteção dos seus dados pessoais. Este Termo de Consentimento tem como objetivo informar como seus dados serão coletados, tratados e utilizados ao acessar o aplicativo Espaço Prevenir Virtual, desenvolvido para apoiar a prevenção ao uso de substâncias
+      </Text>
+      <View
+        style={
+          {
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          color="gray"
+          size="medium"
+          style={
+            [
+              {
+                "color": "#717171",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 20,
+                "fontWeight": "600",
+                "lineHeight": 30,
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          1. Coleta e Uso de Dados Pessoais
+        </Text>
+      </View>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Ao utilizar o Espaço Prevenir Virtual, você concorda com a coleta e o tratamento dos dados pessoais fornecidos por você, como informações sobre o uso de substâncias. Esses dados serão utilizados exclusivamente para realizar análises, pesquisas e melhorar o aplicativo, com foco na prevenção do uso de substâncias.
+      </Text>
+      <View
+        style={
+          {
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          color="gray"
+          size="medium"
+          style={
+            [
+              {
+                "color": "#717171",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 20,
+                "fontWeight": "600",
+                "lineHeight": 30,
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          2. Finalidade do Uso dos Dados
+        </Text>
+      </View>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Os dados coletados serão utilizados para:
+      </Text>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        • Realizar estudos e pesquisas sobre o uso de substâncias e comportamentos de risco, com o objetivo de aprimorar políticas públicas de prevenção.
+      </Text>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        • Desenvolver futuras pesquisas científicas sobre o tema, visando à melhoria contínua do aplicativo e de estratégias de prevenção.
+      </Text>
+      <View
+        style={
+          {
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          color="gray"
+          size="medium"
+          style={
+            [
+              {
+                "color": "#717171",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 20,
+                "fontWeight": "600",
+                "lineHeight": 30,
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          3. Garantia de Privacidade e Confidencialidade
+        </Text>
+      </View>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Os dados coletados não serão expostos de forma individualizada e serãotratados de maneira confidencial. Apenas informações agregadas, semidentificação pessoal, poderão ser utilizadas para fins de pesquisa.Nenhuma informação pessoal será divulgada ou compartilhadapublicamente.
+      </Text>
+      <View
+        style={
+          {
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          color="gray"
+          size="medium"
+          style={
+            [
+              {
+                "color": "#717171",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 20,
+                "fontWeight": "600",
+                "lineHeight": 30,
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          4. Compartilhamento de Dados
+        </Text>
+      </View>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Os seus dados poderão ser compartilhados com órgãos ou entidades daadministração pública para fins de pesquisa, sempre de forma agregadae sem identificação individual, respeitando as normas da Lei Geral deProteção de Dados Pessoais (Lei nº 13.709/2018).
+      </Text>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Art. 1º Esta Lei dispõe sobre o tratamento de dados pessoais,inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural. (BRASIL. Lei nº 13.709, de 14 de agosto de 2018. Dispõe sobre a proteção de dados pessoais e altera a Lei nº 12.965/2014 [Marco Civil da Internet]. Diário Oficial da União, Brasília, DF, 15 ago. 2018).
+      </Text>
+      <View
+        style={
+          {
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          color="gray"
+          size="medium"
+          style={
+            [
+              {
+                "color": "#717171",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 20,
+                "fontWeight": "600",
+                "lineHeight": 30,
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          5. Direitos dos Titulares
+        </Text>
+      </View>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Você tem direito a:
+      </Text>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        • Acessar, corrigir ou excluir a sua conta e aplicativo do seu dispositivo móvel.
+      </Text>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        • Revogar seu consentimento a qualquer momento, sem que isso afete a legalidade do tratamento realizado até o momento da revogação.
+      </Text>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        • Solicitar mais informações sobre como seus dados estão sendo tratados.
+      </Text>
+      <View
+        style={
+          {
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          color="gray"
+          size="medium"
+          style={
+            [
+              {
+                "color": "#717171",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 20,
+                "fontWeight": "600",
+                "lineHeight": 30,
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          6. Segurança dos Dados
+        </Text>
+      </View>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        A COED adota medidas técnicas e administrativas rigorosas para proteger seus dados pessoais contra acessos não autorizados, uso indevido, perda ou alteração.
+      </Text>
+      <View
+        style={
+          {
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          color="gray"
+          size="medium"
+          style={
+            [
+              {
+                "color": "#717171",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 20,
+                "fontWeight": "600",
+                "lineHeight": 30,
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          7. Consentimento
+        </Text>
+      </View>
+      <Text
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Ao clicar em
+         
+        <Text
+          size="small"
+          style={
+            [
+              {
+                "color": undefined,
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 20,
+              },
+              {
+                "fontWeight": "700",
+              },
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          Concordo
+        </Text>
+        , você consente, de forma livre e explícita, com o tratamento dos seus dados pessoais conforme descrito neste Termo de Consentimento, em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD). Se você tiver dúvidas sobre o uso dos seus dados, entre em contato conosco pelo e-mail: coed.seds@sp.gov.br.
+      </Text>
+    </View>
+  </RCTScrollView>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItens": "center",
+        "borderBottomLeftRadius": 7,
+        "borderBottomRightRadius": 7,
+        "borderTopLeftRadius": 7,
+        "borderTopRightRadius": 7,
+        "color": "#717171",
+        "display": "flex",
+        "flexDirection": "row",
+        "fontSize": 14,
+        "justifyContent": "space-evenly",
+        "lineHeight": 20,
+        "opacity": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "width": "auto",
+      }
+    }
+  />
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "alignItens": "center",
+        "borderBottomLeftRadius": 7,
+        "borderBottomRightRadius": 7,
+        "borderTopLeftRadius": 7,
+        "borderTopRightRadius": 7,
+        "color": "#717171",
+        "display": "flex",
+        "flexDirection": "row",
+        "fontSize": 14,
+        "height": 40,
+        "justifyContent": "space-evenly",
+        "lineHeight": 20,
+        "opacity": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 30,
+        "paddingRight": 30,
+        "paddingTop": 0,
+        "width": "auto",
+      }
+    }
+  >
+    <Text
+      center={true}
+      color="gray"
+      size="small"
+      style={
+        [
+          {
+            "color": "#717171",
+            "display": "flex",
+            "fontFamily": "Quicksand-SemiBold",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+          {
+            "width": "100%",
+          },
+        ]
+      }
+      testId="text-component"
+      type="title"
+    >
+      Não quero continuar
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;

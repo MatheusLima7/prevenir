@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Permission Screen Component should render component correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ECFEFF",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 50,
+      "paddingLeft": 30,
+      "paddingRight": 30,
+      "paddingTop": 25,
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../src/assets/prevenir.png",
+      }
+    }
+    style={
+      {
+        "height": 83,
+        "width": 190,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../src/assets/alert.png",
+        }
+      }
+      style={{}}
+    />
+    <Text
+      color="gray"
+      size="large"
+      style={
+        [
+          {
+            "color": "#717171",
+            "display": "flex",
+            "fontFamily": "Quicksand-SemiBold",
+            "fontSize": 24,
+            "fontWeight": "600",
+            "lineHeight": 30,
+          },
+          {
+            "marginBottom": 24,
+          },
+        ]
+      }
+      testId="text-component"
+      type="title"
+    >
+      Permissões de acesso
+    </Text>
+    <Text
+      style={{}}
+    >
+      <Text
+        center={true}
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+              "textAlign": "center",
+            },
+            {
+              "marginBottom": 24,
+            },
+          ]
+        }
+        testId="text-component"
+        type="text"
+      >
+        Para uma melhor experiência e um melhor resultado em sua jornada, precisamos de sua permissão de acesso aos
+      </Text>
+      <Text
+        center={true}
+        color="blue"
+        size="small"
+        style={
+          [
+            {
+              "color": "#0081A7",
+              "display": "flex",
+              "fontFamily": "Quicksand-SemiBold",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 20,
+              "textAlign": "center",
+            },
+            {},
+          ]
+        }
+        testId="text-component"
+        type="title"
+      >
+         seus contatos.
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={{}}
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItens": "center",
+          "borderBottomLeftRadius": 7,
+          "borderBottomRightRadius": 7,
+          "borderTopLeftRadius": 7,
+          "borderTopRightRadius": 7,
+          "color": "#717171",
+          "display": "flex",
+          "flexDirection": "row",
+          "fontSize": 14,
+          "justifyContent": "space-evenly",
+          "lineHeight": 20,
+          "opacity": 1,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "width": "auto",
+        }
+      }
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "alignItens": "center",
+          "borderBottomLeftRadius": 7,
+          "borderBottomRightRadius": 7,
+          "borderTopLeftRadius": 7,
+          "borderTopRightRadius": 7,
+          "color": "#717171",
+          "display": "flex",
+          "flexDirection": "row",
+          "fontSize": 14,
+          "height": 40,
+          "justifyContent": "space-evenly",
+          "lineHeight": 20,
+          "opacity": 1,
+          "paddingBottom": 0,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 0,
+          "width": "auto",
+        }
+      }
+    >
+      <Text
+        center={true}
+        color="gray"
+        size="small"
+        style={
+          [
+            {
+              "color": "#717171",
+              "display": "flex",
+              "fontFamily": "Quicksand-SemiBold",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 20,
+              "textAlign": "center",
+            },
+            {
+              "width": "100%",
+            },
+          ]
+        }
+        testId="text-component"
+        type="title"
+      >
+        Não desejo liberar os acessos
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

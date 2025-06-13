@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Supporter Login Screen Component should render component correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ECFEFF",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "paddingBottom": 40,
+      "paddingLeft": 25,
+      "paddingRight": 25,
+      "paddingTop": 50,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../src/assets/prevenir.png",
+        }
+      }
+      style={
+        {
+          "height": 83,
+          "width": 190,
+        }
+      }
+    />
+    <View
+      style={{}}
+    >
+      <View
+        style={
+          {
+            "textAlign": "center",
+          }
+        }
+      >
+        <Text
+          center={true}
+          color="gray"
+          size="large"
+          style={
+            [
+              {
+                "color": "#717171",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 24,
+                "fontWeight": "600",
+                "lineHeight": 30,
+                "textAlign": "center",
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          Apoiador
+        </Text>
+        <View
+          style={
+            {
+              "marginTop": 20,
+            }
+          }
+        >
+          <Text
+            center={true}
+            color="gray"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#717171",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                  "textAlign": "center",
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="text"
+          >
+            Se você recebeu o código WHATSAPP, significa que alguém precisa de sua ajuda aqui em nosso aplicativo. Faça seu login abaixo:
+             
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "alignItens": "center",
+            "backgroundColor": "#007AFF",
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "color": "#ffffff",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontSize": 14,
+            "height": 60,
+            "justifyContent": "space-evenly",
+            "lineHeight": 20,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 70,
+            "opacity": 1,
+            "paddingBottom": 0,
+            "paddingLeft": 30,
+            "paddingRight": 30,
+            "paddingTop": 0,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          center={false}
+          color="white"
+          size="small"
+          style={
+            [
+              {
+                "color": "#ffffff",
+                "display": "flex",
+                "fontFamily": "Quicksand-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 20,
+              },
+              {
+                "width": "100%",
+              },
+            ]
+          }
+          testId="text-component"
+          type="title"
+        >
+          Entrar com GOV.BR
+        </Text>
+        MockedIcon({"name":"chevron-right","size":20,"color":"#fff","iconStyle":"solid"})
+      </View>
+      <View
+        style={
+          {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginTop": 60,
+            "textAlign": "center",
+          }
+        }
+      >
+        <Text
+          size="small"
+          style={
+            [
+              {
+                "color": undefined,
+                "display": "flex",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="text"
+        >
+          Precisa de ajuda?
+           
+        </Text>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            color="blue"
+            size="small"
+            style={
+              [
+                {
+                  "color": "#0081A7",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-SemiBold",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 20,
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="title"
+          >
+            aperte aqui
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "marginBottom": 80,
+            "marginTop": 110,
+            "textAlign": "center",
+          }
+        }
+      >
+        <Text
+          center={true}
+          size="small"
+          style={
+            [
+              {
+                "color": undefined,
+                "display": "flex",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "textAlign": "center",
+              },
+              {},
+            ]
+          }
+          testId="text-component"
+          type="text"
+        >
+          Você está em acompanhamento?
+        </Text>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            center={true}
+            color="blue"
+            size="medium"
+            style={
+              [
+                {
+                  "color": "#0081A7",
+                  "display": "flex",
+                  "fontFamily": "Quicksand-SemiBold",
+                  "fontSize": 20,
+                  "fontWeight": "600",
+                  "lineHeight": 30,
+                  "textAlign": "center",
+                },
+                {},
+              ]
+            }
+            testId="text-component"
+            type="title"
+          >
+            Faça seu login aqui
+          </Text>
+        </View>
+      </View>
+    </View>
+    <Image
+      source={
+        {
+          "testUri": "../../../src/assets/sp.png",
+        }
+      }
+      style={
+        {
+          "height": 56,
+          "width": 316,
+        }
+      }
+    />
+  </View>
+</RNCSafeAreaView>
+`;

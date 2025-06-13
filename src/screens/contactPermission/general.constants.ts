@@ -1,0 +1,17 @@
+import { Platform } from "react-native";
+
+import { PERMISSIONS } from "react-native-permissions";
+
+const isAndroid = Platform.OS === "android";
+
+export const CONTACTS_PERMISSION = isAndroid
+  ? PERMISSIONS.ANDROID.READ_CONTACTS
+  : PERMISSIONS.IOS.CONTACTS;
+
+export const BACKGROUND_LOCATION_PERMISSION = isAndroid
+  ? PERMISSIONS.ANDROID.ACCESS_BACKGROUND_LOCATION
+  : PERMISSIONS.IOS.LOCATION_ALWAYS;
+
+export const FOREGROUND_LOCATION_PERMISSION = isAndroid
+  ? PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION
+  : PERMISSIONS.IOS.LOCATION_WHEN_IN_USE;

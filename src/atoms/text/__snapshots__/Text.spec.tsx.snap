@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Component should render component correctly 1`] = `
+<Text
+  size="large"
+  style={
+    {
+      "color": undefined,
+      "display": "flex",
+      "fontFamily": "Quicksand-Regular",
+      "fontSize": 24,
+      "fontWeight": "400",
+      "lineHeight": 30,
+    }
+  }
+  testId="text-component"
+  type="text"
+>
+  Teste
+</Text>
+`;
